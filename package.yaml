@@ -1,0 +1,23 @@
+name:                braille
+version:             0.1.0.0
+github:              "mlang/braille"
+license:             BSD3
+author:              "Mario Lang"
+maintainer:          "mlang@blind.guru"
+copyright:           "2018 Mario Lang"
+
+synopsis:            Functions for working with Braille
+category:            Text
+
+description:         Blind FP
+
+dependencies:
+- base >= 4.7 && < 5
+- containers
+- filepath
+- megaparsec
+- mtl
+- parser-combinators
+
+library:
+  source-dirs: lib
